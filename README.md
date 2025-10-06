@@ -39,7 +39,7 @@ This Arduino project controls a motorized laser platform using an LDR sensor for
     |
     |
   (GND)
-
+```
 ---
 
 ## 🖥️ Serial Commands
