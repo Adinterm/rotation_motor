@@ -46,10 +46,10 @@ This Arduino project controls a motorized laser platform using an LDR sensor for
 
 | Command      | Format        | Description                                     |
 |--------------|---------------|-------------------------------------------------|
-| `start,<dir>`| e.g. `start,1`| Begin auto-calibration. Direction: 1=Left, 2=Right |
-| `cal`        | `cal`         | Show full rotation time (ms)                   |
-| `deg,<angle>`| e.g. `deg,90` | Rotate by specific angle (1–360°)              |
-| `stop`       | `stop`        | Stop current operation                         |
+| `start,<dir>`| e.g. `start,1`| Begin auto-calibration. Dirct: 1=Left, 2=Right  |
+| `cal`        | `cal`         | Show full rotation time (ms)                    |
+| `deg,<angle>`| e.g. `deg,90` | Rotate by specific angle (1–360°)               |
+| `stop`       | `stop`        | Stop current operation                          |
 
 - All commands are **case-insensitive**.
 - Responses are printed to **Serial Monitor**.
