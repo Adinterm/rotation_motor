@@ -1,41 +1,39 @@
-# Laser Rotation Calibration System with LDR and LCD (Arduino)
+# Rotation angle with sensor feedback
 
-This Arduino project controls a motorized laser platform using an LDR sensor for automatic calibration and precise angular rotation. It features:
+This Arduino project controls a motorized laser platform using an LDR sensor for calibration and (almost) precise angular rotation. It features:
 
-- **Auto-calibration** using a light beam break detected by an LDR.
+- **Auto-calibration** using a light beam detected by an LDR.
 - **Degree-based rotation** with accurate timing.
 - **LCD I2C display** for real-time status.
 - **Serial command interface** for control.
 
 ---
 
-## 🔧 Hardware Used
+## Hardware Used
 
 - Arduino UNO/Nano
 - 16x2 I2C LCD (default address: `0x27`)
 - LDR (Light Dependent Resistor)
 - 10kΩ resistor (for voltage divider with LDR)
 - Laser module
-- Dual motor driver (or digital output control)
+- Dual motor driver (or digital output control/relay)
 - DC motor (for rotation)
-- Jumper wires, breadboard
 
 ---
 
-## 🔌 Circuit Diagram (LDR to A0)
+## Circuit Diagram (LDR to A0)
 
 (VCC - 5V)
-|
-|
-[ LDR ]
-|
-|---------> A0 (to Arduino Analog Input)
-|
-[ 10kΩ Resistor ]
-|
-|
-(GND)
-
+    |
+    |
+  [ LDR ]
+    |
+    |---------> A0 (to Arduino Analog Input)
+    |
+  [ 10kΩ Resistor ]
+    |
+    |
+  (GND)
 
 ---
 
