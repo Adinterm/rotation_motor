@@ -18,7 +18,7 @@ This Arduino project controls a motorized laser platform using an LDR sensor for
 - Laser module
 - A small mirror to reflect the light back.
 - Dual motor driver (or digital output control/relay)
-- DC motor (for rotation)
+- DC motor with gearbox (for rotation)
 
 ## Adjustment
 - sensor value
