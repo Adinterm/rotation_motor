@@ -23,7 +23,7 @@ This Arduino project controls a motorized laser platform using an LDR sensor for
 ## Adjustment
 - sensor value
 - rotation "start" runs for 20s before switching off (default)
-- delay the start time
+- the start time delay
 
 ---
 
