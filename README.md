@@ -20,7 +20,7 @@ This Arduino project controls a motorized laser platform using an LDR sensor for
 - Dual motor driver (or digital output control/relay)
 - DC motor (for rotation)
 
-##Adjustment
+## Adjustment
 - sensor value
 - rotation "start" runs for 20s before switching off (default)
 
