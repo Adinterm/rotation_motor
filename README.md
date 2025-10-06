@@ -22,7 +22,7 @@ This Arduino project controls a motorized laser platform using an LDR sensor for
 ---
 
 ## Circuit Diagram (LDR to A0)
-
+```plaintext
 (VCC - 5V)
     |
     |
