@@ -16,8 +16,13 @@ This Arduino project controls a motorized laser platform using an LDR sensor for
 - LDR (Light Dependent Resistor)
 - 10kΩ resistor (for voltage divider with LDR)
 - Laser module
+- A small mirror to reflect the light back.
 - Dual motor driver (or digital output control/relay)
 - DC motor (for rotation)
+
+##Adjustment
+- sensor value
+- rotation "start" runs for 20s before switching off (default)
 
 ---
 
